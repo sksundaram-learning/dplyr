@@ -332,5 +332,5 @@ sample_group <- function(i, frac, size, replace, weight) {
 }
 
 group_drop <- function(x) {
-  attr(.data, "drop") %||% TRUE
+  attr(x, "drop") %||% TRUE
 }
